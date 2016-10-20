@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/doorloopnormen</path>
+    <page_callback>CRM_Doorloopnormen_Page_Doorloopnormen</page_callback>
+    <title>Doorlooptijd normen</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/doorloopnormen/edit</path>
+    <page_callback>CRM_Doorloopnormen_Form_Doorloopnormen</page_callback>
+    <title>Doorlooptijd normen</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
